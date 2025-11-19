@@ -1,1 +1,40 @@
-home page of website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Body Template</title>
+  <style>
+    /* CSS for body: styles and flexible container */
+    body {
+      margin: 0; /* remove default margin */
+      padding: 20px; /* padding inside the body */
+      font-family: Arial, sans-serif; /* simple font */
+      background-color: #f5f5f5; /* light background color */
+      min-height: 100vh; /* full viewport height */
+      box-sizing: border-box; /* include padding in size */
+      display: flex;
+      justify-content: center; /* center child container horizontally */
+      align-items: flex-start; /* align top */
+    }
+
+    /* Main container inside body */
+    .container {
+      width: 90%;
+      max-width: 1200px; /* max width */
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Your other HTML content can fit in here -->
+    <h1>Welcome to My Website</h1>
+    <p>This is a flexible, styled container inside the body.</p>
+  </div>
+</body>
+</html>
